@@ -10,3 +10,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.jumbotron{
+    height: 300px;
+    
+}
+.heading{
+    margin: 25px;
+}
+.greeting{
+    margin: 25px;
+}
+.action-button{
+    margin: 25px;
+}
