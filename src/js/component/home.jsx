@@ -1,4 +1,7 @@
 import React from "react";
+import Card from "./card.jsx";
+import Jumbotron from "./jumbotron.jsx";
+import Navbar from "./navbar.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -7,7 +10,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-secondary bg-dark">
+			<Navbar />
+			{/* <nav className="navbar navbar-expand-lg navbar-secondary bg-dark">
 				<div className="container-fluid d-flex">
 					<a className="navbar-brand text-white" href="#">
 						Start Bootstrap
@@ -44,10 +48,11 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</nav>
+			</nav> */}
 			<div className="container d-flex align-items-center flex-column">
 				<div className="row w-75">
-					<div className="col-12 jumbotron bg-light ">
+					<Jumbotron />
+					{/* <div className="col-12 jumbotron bg-light ">
 						<h1 className="heading">A Warm Welcome!</h1>
 						<p className="greeting">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -63,107 +68,49 @@ const Home = () => {
 						<button className="action-button btn btn-primary">
 							Call to Action
 						</button>
-					</div>
+					</div> */}
 				</div>
 
 				<div className="row w-75">
 					<div className="col-3">
-						<div className="card text-center">
-							<img
-								src="https://via.placeholder.com/150.jpg"
-								class="card-img-top"
-								alt="..."></img>
-							<div className="card-body">
-								<h5 className="card-title">Card title</h5>
-								<p className="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<ul className="list-group list-group-flush">
-									<li className="list-group-item">
-										<button className="btn btn-primary">
-											Find Out More!
-										</button>
-									</li>
-								</ul>
-							</div>
-						</div>
+						<Card />
 					</div>
 					<div className="col-3">
-						<div className="card text-center">
-							<img
-								src="https://via.placeholder.com/150.jpg"
-								class="card-img-top"
-								alt="..."></img>
-							<div className="card-body">
-								<h5 className="card-title">Card title</h5>
-								<p className="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<ul className="list-group list-group-flush">
-									<li className="list-group-item">
-										<button className="btn btn-primary">
-											Find Out More!
-										</button>
-									</li>
-								</ul>
-							</div>
-						</div>
+						<Card />
 					</div>
 					<div className="col-3">
-						<div className="card text-center">
-							<img
-								src="https://via.placeholder.com/150.jpg"
-								class="card-img-top"
-								alt="..."></img>
-							<div className="card-body">
-								<h5 className="card-title">Card title</h5>
-								<p className="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<ul className="list-group list-group-flush">
-									<li className="list-group-item">
-										<button className="btn btn-primary">
-											Find Out More!
-										</button>
-									</li>
-								</ul>
-							</div>
-						</div>
+						<Card />
 					</div>
 					<div className="col-3">
-						<div className="card text-center">
-							<img
-								src="https://via.placeholder.com/150.jpg"
-								class="card-img-top"
-								alt="..."></img>
-							<div className="card-body">
-								<h5 className="card-title">Card title</h5>
-								<p className="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<ul className="list-group list-group-flush">
-									<li className="list-group-item">
-										<button className="btn btn-primary">
-											Find Out More!
-										</button>
-									</li>
-								</ul>
-							</div>
-						</div>
+						<Card />
 					</div>
 				</div>
 			</div>
-			
 		</div>
 	);
 };
-
+// const Card = () => {
+// 	return (
+// 		<div className="card text-center">
+// 			<img
+// 				src="https://via.placeholder.com/150.jpg"
+// 				class="card-img-top"
+// 				alt="..."></img>
+// 			<div className="card-body">
+// 				<h5 className="card-title">Card title</h5>
+// 				<p className="card-text">
+// 					Some quick example text to build on the card title and make
+// 					up the bulk of the card's content.
+// 				</p>
+// 				<ul className="list-group list-group-flush">
+// 					<li className="list-group-item">
+// 						<button className="btn btn-primary">
+// 							Find Out More!
+// 						</button>
+// 					</li>
+// 				</ul>
+// 			</div>
+// 		</div>
+// 	);
+// };
 export default Home;
