@@ -11,7 +11,8 @@
 
 */
 .jumbotron{
-    height: 300px;
+    
+   
     
 }
 .heading{
@@ -22,4 +23,5 @@
 }
 .action-button{
     margin: 25px;
+    margin-bottom: 50px;
 }

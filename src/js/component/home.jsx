@@ -50,7 +50,7 @@ const Home = () => {
 				</div>
 			</nav> */}
 			<div className="container d-flex align-items-center flex-column">
-				<div className="row w-75">
+				<div className="row w-75 d-flex align-items-stretch">
 					<Jumbotron />
 					{/* <div className="col-12 jumbotron bg-light ">
 						<h1 className="heading">A Warm Welcome!</h1>
@@ -70,19 +70,35 @@ const Home = () => {
 						</button>
 					</div> */}
 				</div>
-
-				<div className="row w-75">
-					<div className="col-3">
-						<Card />
+				<br />
+				<div className="row w-75 pb-4">
+					<div className="col-3 d-flex align-items-stretch">
+						<Card
+							image="https://static.vecteezy.com/system/resources/thumbnails/000/568/450/small/vector60-1781-01.jpg"
+							title="Home"
+							text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Tristique nulla aliquet enim tortor at."
+						/>
 					</div>
-					<div className="col-3">
-						<Card />
+					<div className="col-3 d-flex align-items-stretch">
+						<Card
+							image="https://static.vecteezy.com/system/resources/thumbnails/002/590/681/small/paper-document-with-pen-line-style-icon-free-vector.jpg"
+							title="About"
+							text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Et egestas quis ipsum suspendisse."
+						/>
 					</div>
-					<div className="col-3">
-						<Card />
+					<div className="col-3 d-flex align-items-stretch">
+						<Card
+							image="https://www.freeiconspng.com/thumbs/maintenance-icon/maintenance-icon-2.jpg"
+							title="Services"
+							text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae proin sagittis nisl rhoncus mattis. Auctor elit sed vulputate mi sit amet mauris commodo quis."
+						/>
 					</div>
-					<div className="col-3">
-						<Card />
+					<div className="col-3 d-flex align-items-stretch">
+						<Card
+							image="https://icon-library.com/images/phone-icon-jpg/phone-icon-jpg-17.jpg"
+							title="Contact"
+							text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor purus non enim praesent elementum facilisis. A cras semper auctor neque vitae tempus."
+						/>
 					</div>
 				</div>
 			</div>
